@@ -1,40 +1,70 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Theme_Compat
- * @deprecated 3.0.0
- *
- * This file is here for backward compatibility with old themes and will be removed in a future version
- */
-_deprecated_file(
-	/* translators: %s: Template name. */
-	sprintf( __( 'Theme without %s' ), basename( __FILE__ ) ),
-	'3.0.0',
-	null,
-	/* translators: %s: Template name. */
-	sprintf( __( 'Please include a %s template in your theme.' ), basename( __FILE__ ) )
-);
-?>
+<footer class="site-footer">
+	<div class="site-footer__inner container container--narrow">
+		<div class="group">
+			<div class="site-footer__col-one">
+				<h1 class="school-logo-text school-logo-text--alt-color">
+					<a href="#"><strong>Fictional</strong> University</a>
+				</h1>
+				<p><a class="site-footer__link" href="#">555.555.5555</a></p>
+			</div>
 
-<hr />
-<div id="footer" role="contentinfo">
-<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
-	<p>
-		<?php
-		printf(
-			/* translators: 1: Site name, 2: WordPress */
-			__( '%1$s is proudly powered by %2$s' ),
-			get_bloginfo( 'name' ),
-			'<a href="https://wordpress.org/">WordPress</a>'
-		);
-		?>
-	</p>
-</div>
-</div>
+			<div class="site-footer__col-two-three-group">
+				<div class="site-footer__col-two">
+					<h3 class="headline headline--small">Explore</h3>
+					<nav class="nav-list">
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Programs</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Campuses</a></li>
+						</ul>
+					</nav>
+				</div>
 
-<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/ -->
-<?php /* "Just what do you think you're doing Dave?" */ ?>
+				<div class="site-footer__col-three">
+					<h3 class="headline headline--small">Learn</h3>
+					<nav class="nav-list">
+						<ul>
+							<li><a href="#">Legal</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Careers</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 
-		<?php wp_footer(); ?>
+			<div class="site-footer__col-four">
+				<h3 class="headline headline--small">Connect With Us</h3>
+				<nav>
+					<ul class="min-list social-icons-list group">
+						<li>
+							<a href="#" class="social-color-facebook"><i class="fa fa-facebook"
+									aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#" class="social-color-twitter"><i class="fa fa-twitter"
+									aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#" class="social-color-youtube"><i class="fa fa-youtube"
+									aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#" class="social-color-linkedin"><i class="fa fa-linkedin"
+									aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#" class="social-color-instagram"><i class="fa fa-instagram"
+									aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<?php wp_footer(); ?>
 </body>
+
 </html>
