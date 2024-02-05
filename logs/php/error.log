@@ -100,3 +100,36 @@
 [29-Jan-2024 22:00:46 UTC] PHP Warning:  Array to string conversion in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 35
 [29-Jan-2024 22:00:46 UTC] PHP Warning:  Array to string conversion in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 35
 [29-Jan-2024 22:05:44 UTC] PHP Warning:  Undefined array key 4 in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 35
+[31-Jan-2024 22:56:03 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university_features" not found or invalid function name in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-settings.php(621): do_action('after_setup_the...')
+#3 /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/keithyan...')
+#4 /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/keithyan...')
+#5 /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/keithyan...')
+#6 {main}
+  thrown in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[31-Jan-2024 23:40:37 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "x" in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:29
+Stack trace:
+#0 /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/keithyan...')
+#2 /Users/keithyanosy/Local Sites/fictional-university/app/public/index.php(17): require('/Users/keithyan...')
+#3 {main}
+  thrown in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 29
+[31-Jan-2024 23:40:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "x" in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:29
+Stack trace:
+#0 /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/keithyan...')
+#2 /Users/keithyanosy/Local Sites/fictional-university/app/public/index.php(17): require('/Users/keithyan...')
+#3 {main}
+  thrown in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 29
+[01-Feb-2024 02:13:21 UTC] PHP Warning:  Undefined variable $animalSounds in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 54
+[01-Feb-2024 02:13:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 54
+[01-Feb-2024 02:23:38 UTC] PHP Warning:  Undefined variable $theParents in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 44
+[01-Feb-2024 02:23:40 UTC] PHP Warning:  Undefined variable $theParents in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 44
+[01-Feb-2024 02:24:24 UTC] PHP Warning:  Undefined variable $theParents in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 44
+[01-Feb-2024 02:24:26 UTC] PHP Warning:  Undefined variable $theParents in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 44
+[01-Feb-2024 02:24:35 UTC] PHP Warning:  Undefined variable $theParents in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 44
+[01-Feb-2024 02:24:41 UTC] PHP Warning:  Undefined variable $theParents in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 44
+[01-Feb-2024 02:24:43 UTC] PHP Warning:  Undefined variable $theParents in /Users/keithyanosy/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 44
